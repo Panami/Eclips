@@ -11,4 +11,9 @@ public class Project extends BaseC{
 	public void createProject() {
 		Reporter.log("Create Project",true);
 	}
+	
+	@Test
+	public void modifyProject() {
+		Reporter.log("Modify Project",true);
+	}
 }
